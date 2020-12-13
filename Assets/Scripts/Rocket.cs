@@ -95,7 +95,7 @@ public class Rocket : MonoBehaviour
 
     private void ApplyThrust()
     {
-        rigidBody.AddRelativeForce(Vector3.up * mainThrust);
+        rigidBody.AddRelativeForce(Vector3.up * mainThrust );
         if (!audioSource.isPlaying)
         {
             audioSource.PlayOneShot(mainEngine);
