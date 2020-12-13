@@ -524,20 +524,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1860875665, guid: 37657b188948f7042be407b84658b17e, type: 3}
-      propertyPath: deathParticles
-      value: 
-      objectReference: {fileID: 2083112352}
-    - target: {fileID: 198100718625092853, guid: 37657b188948f7042be407b84658b17e,
-        type: 3}
-      propertyPath: lengthInSec
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 198204746767445003, guid: 37657b188948f7042be407b84658b17e,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.minScalar
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 654749452523874410, guid: 37657b188948f7042be407b84658b17e,
         type: 3}
       propertyPath: m_Name
@@ -600,12 +586,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37657b188948f7042be407b84658b17e, type: 3}
---- !u!198 &2083112352 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 198204746767445003, guid: 37657b188948f7042be407b84658b17e,
-    type: 3}
-  m_PrefabInstance: {fileID: 2042751078}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2147182738
 PrefabInstance:
   m_ObjectHideFlags: 0
