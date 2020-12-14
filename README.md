@@ -2,6 +2,8 @@
 
 3D Unity Game - C#
 
+* 5 Player Lives
+
 # Control keys:
      A - go left
      D - go right
