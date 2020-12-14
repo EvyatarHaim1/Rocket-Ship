@@ -230,17 +230,17 @@ PrefabInstance:
     - target: {fileID: 83191855095080600, guid: 14bae47b5e45b744e94c9500f6d6353e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -70
+      value: -68.9
       objectReference: {fileID: 0}
     - target: {fileID: 83191855095080600, guid: 14bae47b5e45b744e94c9500f6d6353e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.1
+      value: -3.6
       objectReference: {fileID: 0}
     - target: {fileID: 83191855095080600, guid: 14bae47b5e45b744e94c9500f6d6353e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.8
+      value: -11.6
       objectReference: {fileID: 0}
     - target: {fileID: 83191855095080600, guid: 14bae47b5e45b744e94c9500f6d6353e,
         type: 3}
@@ -399,12 +399,12 @@ PrefabInstance:
     - target: {fileID: 83191855095080600, guid: 14bae47b5e45b744e94c9500f6d6353e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 82.59259
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 83191855095080600, guid: 14bae47b5e45b744e94c9500f6d6353e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0749989
+      value: -6.3
       objectReference: {fileID: 0}
     - target: {fileID: 83191855095080600, guid: 14bae47b5e45b744e94c9500f6d6353e,
         type: 3}
@@ -1588,12 +1588,12 @@ PrefabInstance:
     - target: {fileID: 7874202463670670499, guid: ba653791b5800f04b97263655bef9d7f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.9
+      value: 28.4
       objectReference: {fileID: 0}
     - target: {fileID: 7874202463670670499, guid: ba653791b5800f04b97263655bef9d7f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -73.2
+      value: -89.9
       objectReference: {fileID: 0}
     - target: {fileID: 7874202463670670499, guid: ba653791b5800f04b97263655bef9d7f,
         type: 3}
@@ -1634,6 +1634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874202463670670500, guid: ba653791b5800f04b97263655bef9d7f,
+        type: 3}
+      propertyPath: field of view
+      value: 44.4
       objectReference: {fileID: 0}
     - target: {fileID: 7874202463670670502, guid: ba653791b5800f04b97263655bef9d7f,
         type: 3}
