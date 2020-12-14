@@ -572,7 +572,7 @@ PrefabInstance:
     - target: {fileID: 83191855095080600, guid: 14bae47b5e45b744e94c9500f6d6353e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 95.632645
+      value: 136.42953
       objectReference: {fileID: 0}
     - target: {fileID: 83191855095080600, guid: 14bae47b5e45b744e94c9500f6d6353e,
         type: 3}
@@ -1333,7 +1333,7 @@ PrefabInstance:
     - target: {fileID: 83191855095080600, guid: 14bae47b5e45b744e94c9500f6d6353e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 95.632645
+      value: 200.26433
       objectReference: {fileID: 0}
     - target: {fileID: 83191855095080600, guid: 14bae47b5e45b744e94c9500f6d6353e,
         type: 3}
@@ -1952,10 +1952,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1860875665, guid: 37657b188948f7042be407b84658b17e, type: 3}
-      propertyPath: rcsThrust
-      value: 300
-      objectReference: {fileID: 0}
     - target: {fileID: 654749452523874410, guid: 37657b188948f7042be407b84658b17e,
         type: 3}
       propertyPath: m_Name
@@ -2782,7 +2778,7 @@ PrefabInstance:
     - target: {fileID: 7874202463670670500, guid: ba653791b5800f04b97263655bef9d7f,
         type: 3}
       propertyPath: field of view
-      value: 70.9
+      value: 73.8
       objectReference: {fileID: 0}
     - target: {fileID: 7874202463670670502, guid: ba653791b5800f04b97263655bef9d7f,
         type: 3}

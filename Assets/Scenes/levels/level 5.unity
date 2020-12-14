@@ -444,7 +444,7 @@ PrefabInstance:
     - target: {fileID: 4242001210209129625, guid: 99521c74f6a599a4ea520592af349b5a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -63.7
+      value: -47.6
       objectReference: {fileID: 0}
     - target: {fileID: 4242001210209129625, guid: 99521c74f6a599a4ea520592af349b5a,
         type: 3}
@@ -1368,10 +1368,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1860875665, guid: 37657b188948f7042be407b84658b17e, type: 3}
-      propertyPath: rcsThrust
-      value: 300
-      objectReference: {fileID: 0}
     - target: {fileID: 654749452523874410, guid: 37657b188948f7042be407b84658b17e,
         type: 3}
       propertyPath: m_Name
@@ -2009,7 +2005,7 @@ PrefabInstance:
     - target: {fileID: 7874202463670670500, guid: ba653791b5800f04b97263655bef9d7f,
         type: 3}
       propertyPath: field of view
-      value: 63.9
+      value: 75.7
       objectReference: {fileID: 0}
     - target: {fileID: 7874202463670670502, guid: ba653791b5800f04b97263655bef9d7f,
         type: 3}

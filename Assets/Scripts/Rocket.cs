@@ -15,6 +15,8 @@ public class Rocket : MonoBehaviour
     [SerializeField] ParticleSystem successParticles;
     [SerializeField] ParticleSystem deathParticles;
 
+    [SerializeField] int lives = 0;
+
     Rigidbody rigidBody;
     AudioSource audioSource;
 
@@ -22,11 +24,15 @@ public class Rocket : MonoBehaviour
     State state = State.Alive;
 
     bool collisionsDisabled = false;
+    
     // Start is called before the first frame update
     void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
+
+        lives = PlayerPrefs.GetInt("Lives");
+
     }
 
     // Update is called once per frame
@@ -86,7 +92,7 @@ public class Rocket : MonoBehaviour
         audioSource.Stop();
         audioSource.PlayOneShot(death);
         deathParticles.Play();
-        Invoke("LoadFirstLevel", levelLoadDelay);
+        Invoke("LoadSameLevel", levelLoadDelay);
     }
 
 
@@ -101,9 +107,19 @@ public class Rocket : MonoBehaviour
             SceneManager.LoadScene(nextSceneIndex);
     }
 
-    private void LoadFirstLevel()
+    private void LoadSameLevel()
     {
-        SceneManager.LoadScene(0);
+        if (lives < 5)
+        {
+            PlayerPrefs.SetInt("Lives", lives + 1);
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentSceneIndex);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Lives", 0);
+            SceneManager.LoadScene(0);
+        }
     }
 
     private void RespondToThrustInput()
