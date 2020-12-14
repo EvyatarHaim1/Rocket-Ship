@@ -7,6 +7,8 @@
      D - go right
      Space - Thrust
 
+* Game URL - https://sharemygame.com/@EvyatarHaim/rocket-ship-evyatar-haim
+
 Levels - Screen View:
 
 Level 1:
