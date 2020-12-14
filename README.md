@@ -2,6 +2,11 @@
 
 3D Unity Game - C#
 
+# Control keys:
+     A - go left
+     D - go right
+     Space - Thrust
+
 Levels - Screen View:
 
 Level 1:
